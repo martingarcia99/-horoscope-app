@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { lazy, Suspense } from "react";
+import React from "react";
 
 const Home = lazy(() => import("./views/Home"));
 const Details = lazy(() => import("./views/Details"));

@@ -4,6 +4,7 @@ import { getZodiacImage } from "../utils/getZodiacImage";
 import { Zodiac } from "../types/zodiac";
 import usePostZodiacDetails from "../hooks/usePostZodiacDetails";
 import Loading from "./loading";
+import React from "react";
 
 const ZodiacDetails = () => {
     const { zodiac } = useParams();

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { getZodiacImage } from "../utils/getZodiacImage";
 import { Zodiac } from "../types/zodiac";
 import { useMemo } from "react";
+import React from "react";
 
 interface ZodiacCardProps {
     zodiac: Zodiac;

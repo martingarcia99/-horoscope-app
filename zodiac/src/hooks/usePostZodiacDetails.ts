@@ -1,6 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { Zodiac } from "../types/zodiac";
-import OPENAI_API_KEY from "../constants/connectChatgpt";
+//import OPENAI_API_KEY from "../constants/connectChatgpt";
+
+//Disabled because my accoutn reached the limit of requests per minute.
+const OPENAI_API_KEY = ''
 
 const systemMessage = {
     role: 'system',
