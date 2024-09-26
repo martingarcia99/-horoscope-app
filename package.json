@@ -6,7 +6,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "webpack serve",
-    "build": "webpack --config webpack.prod.js"
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.3.1",
