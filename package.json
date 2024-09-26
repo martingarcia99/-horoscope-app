@@ -5,8 +5,8 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "webpack serve",
-    "build": "vite build"
+    "start": "vite",
+    "build": "vite"
   },
   "dependencies": {
     "react": "^18.3.1",

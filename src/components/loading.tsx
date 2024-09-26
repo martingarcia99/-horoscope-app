@@ -1,4 +1,3 @@
-import React from 'react';
 import LoadingImage from '../assets/loading.png';
 
 const Loading = () => <>

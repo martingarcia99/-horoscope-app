@@ -1,4 +1,3 @@
-import React from "react";
 import ZodiacCard from "../components/ZodiacCard";
 import { ZODIAC_NAMES } from "../constants/zodiac";
 
